@@ -5,10 +5,29 @@
  */
 package cliente;
 
+import java.io.BufferedReader;
+
 /**
  *
  * @author Manuel Montoya
  */
 public class Cliente {
     
+   static boolean run= false;
+   static BufferedReader in = null; // Leer el flujo de entrada y salida de datos
+   
+   
+   public void run(){
+   String ent;
+   
+   try{
+   while((ent = in.readLine()) !=null){
+   System.out.
+   
+   }
+   
+   }
+       
+   
+   }
 }
